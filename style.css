@@ -235,4 +235,39 @@ section h2 {
   margin-top: 15px;
 }
 
+@media only screen and (max-device-width: 780px){
+  section article {
+  width: 70%;
+  float: left;
+  
+  height: 70vh;
+ 
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 30px;
+ 
+  background-color: black;
+  color:white;
+
+}
+
+article img{
+  
+  width: 90%; 
+  height: 65%; 
+  margin-left: 35px;
+  /*box-shadow: 3px 3px 3px 3px black;*/
+  margin-top: 15px;
+}
+ section h2{
+  font-size: 70px;
+  }
+  section p{
+    font-size: 50px;
+  }
+  h1{
+    margin-top: 5%;
+    font-size: 70px;
+  }
+}
 
